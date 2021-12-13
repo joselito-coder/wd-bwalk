@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Roboto:wght@300&family=Source+Sans+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    background: rgb(61, 61, 61);
+    padding: 20px;
+}
+
+.items-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul > a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+}
+
+main > h1{
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    margin-bottom: 20px;
+}
+
+.sbs-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.main-image{
+    display: inline-block;
+}
+
+.main-image img{
+    width: 400px;
+    border-radius: 15px;
+    border:1px solid black
+}
+
+.main-text{
+    width: 50%;
+    text-align: center;
+    margin-top: 3rem;
+    padding: 20px;
+    height: 100%;
+}
+
+.main-text p{
+    margin: 40px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size:20px;
+}
+
+.orange-container  {
+    background: rgb(255, 123, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px ;
+    border-radius: 8px;
+    border:none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+
+.w-30{
+    width: 30%;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+footer{
+    background:rgb(27, 27, 58);
+    padding-top: 4rem;
+    color:white;
+    text-align:center;
+    padding-bottom:2rem;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.w-40{
+    width: 40%;
+}
+
