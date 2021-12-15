@@ -22,24 +22,9 @@
     
 }
 
-.nav-container{
-
-}
-
-/* .card-content{
-    background:purple;
-} */
-
 .content-data{
-    /* background:purple; */
-    /* padding: 50px; */
     margin:20px;
     height:100%;
-    /* background:pink; */
-
-    /* width:%; */
-    /* height: 100%; */
-
 }
 
 .content-data li{
@@ -50,14 +35,12 @@
 }
 
 .content-data li:first-child {
-    color: red;
     border-top-left-radius: 20px ;
     border-top-right-radius: 20px ;
     border-top:none;
 }
 
 .content-data li:last-child {
-    color: red;
     border-end-start-radius: 20px ;
     border-end-end-radius: 20px ;
     border-bottom:none;
@@ -65,7 +48,7 @@
 
 
 .slider-image{
-    width:99%;
+    width:100%;
     margin:auto;
     border-radius: 10px;
     display: block;
@@ -75,7 +58,6 @@
     width:310px;
     margin: 1px 13px;
     background-color:rgba(146, 146, 146, 0.726);
-    /* border:1px solid black; */
     height:60vh;
     display: flex;
     position:relative;
@@ -87,16 +69,16 @@
 }
 
 .card-container{
-    /* background:red; */
     display:flex;
     align-items: center;
     justify-content: center;
 
-    /* height: 80vh; */
     padding:20px;
 }
 
 .card-header{
+    font-size: 1.4rem;
+    font-family: sans-serif;
     padding:30px;
     background-color: darkorange;
     color:white;
