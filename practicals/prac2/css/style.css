@@ -8,6 +8,7 @@
 .navbar{
     background: rgb(255, 192, 75);
     padding:10px;
+    border-top:8px solid darkorange;
 }
 
 .nav-element{
@@ -91,4 +92,8 @@
     text-align: center;
     border-end-start-radius: 20px;
     border-end-end-radius: 20px;
+}
+
+.bg-white{
+    background:white;
 }
