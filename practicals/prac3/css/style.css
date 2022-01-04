@@ -1,0 +1,319 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    display: flex;
+    background:white;
+    justify-content: space-between;    
+    padding: 20px 0;
+}
+
+
+
+
+.link-cont{
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.nav-element{
+    list-style: none;
+}
+
+.nav-element a{
+    color:#3a3a3a;
+    text-decoration: none;
+    color: #3a3a3a;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 3px;
+
+}
+
+.nav-element a:hover{
+    color:#9DCA00
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:10rem;
+}
+
+.logo-text{
+    margin-left: 3rem;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.main-cont{ 
+    background:url('../img/vegetables.jpg') no-repeat;
+    color:white;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header{
+    font-size: 4rem;
+    margin-bottom:3rem;
+    text-shadow: 4px 2px 3px black;
+}
+
+.btn{
+    padding:15px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.btn-main{
+    color:#79a317;
+    /* background: rgba(125, 243, 7, 0.219); */
+    background:#FFFFFFD1;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.btn-main:hover{
+    color:white;
+    background: #A2CD3A;
+    transform: scale(1.1);
+    transition:all .37s ease;
+}
+
+
+.about-cont{
+    margin-top:4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-img img{
+
+    height: 40rem;
+    width: 500px;
+}
+
+.about-bio{
+    
+    width: 72%;
+    font-size: 1.23rem;
+    margin: 0 30px;
+    word-spacing: 7px;
+
+}
+
+.about-content{
+    width: 50%;
+
+}
+
+.btn-about{
+    background:#71b230;
+    color:white;
+    margin: 15px 30px;
+    padding: 15px 30px;
+}
+
+.about-title{
+    width: 72%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.service-container{
+    background: #9DD5BF;
+    color: white;
+    height: 73vh;
+    margin-bottom: 99px;
+}
+
+.service-card{
+    width: 23%;
+    text-align: center;
+    background:white;
+    color:black;
+    margin: 0 20px;
+    /* border: 1px solid red; */
+    box-shadow: 0px 6px 19px #0000008a;
+
+
+}
+
+.service-container h2{
+    font-size: 2.8rem;
+    position: relative;
+    top: 65px;
+    left: 34%;
+
+}
+
+.service-card-header{
+    font-size:2rem;
+    font-weight: bolder;
+    margin: 50px 0; 
+}
+
+.service-card-img img{
+    height: 266px;
+    
+    width:100%;
+}
+
+.btn-service{
+    background: #71b230;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.service-card-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+
+}
+
+.fake-container{
+    height: 20vh;
+}
+
+.form-container{
+    height:100vh;
+    /* background: red;; */
+    display: flex;
+}
+
+.form-content{
+    width: 50%;
+    /* background: purple; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-form   {
+    text-align: center;
+    width: 61%;
+}
+
+.inside-form input,textarea{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 11px;
+    font-size:1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(126, 126, 126, 0.452);
+    resize: none;
+}
+
+.form-img{
+    width: 50%;
+    height: 100%;
+    /* text-align: center; */
+}
+
+.form-img img{
+    width: 60%;
+
+}
+
+.text-green{
+    color:#9ccc3a
+
+}
+
+.small{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-heading{
+    font-size:3.5rem;
+}
+
+.footer{
+    height:60vh;
+    position:relative;
+    color:white;
+    text-shadow: 4px 2px 3px black;
+    font-size:1.123rem;
+
+}
+
+.footer::before{
+    content: '';
+    background: rgba(0, 0, 0, 0.678) url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/backyard-vegetable-garden-1525293686.jpg?resize=980:*') no-repeat;
+    position: absolute;
+    background-blend-mode:darken;
+    top:0px;
+    height:100%;
+    width:100%;
+    left:0px;
+    background-size: cover;
+    z-index: -1;
+    opacity: .9;
+}
+
+.curl-container{
+    background: white;
+    height: 141px;
+    border-radius: 26%;
+    transform: rotate(180deg);
+    position: relative;
+    top: 27px;
+    z-index: 100;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    top:2.3rem;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.contact-label{
+    /* color: black; */
+    color:#b3b3b3;
+    font-size: 1.2rem;
+    margin-top:1.5rem;
+    text-shadow: none;
+}
+
+.footer-social-links{
+    text-align: center;
+    margin-top:2rem
+}
+
+.social-icons{
+    margin-top:20px;
+}
+.social-icons i {
+    font-size: 2rem;
+    margin: 0 14px;
+
+}
+
+.footer-text{
+    position:relative;
+    text-align: center;
+    top:8rem;
+    font-weight: bold;
+    text-shadow: none;
+}
