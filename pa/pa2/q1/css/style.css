@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: #00ceaa;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr) 1.3fr;
+    /* column-gap: 5px; */
+    height:100%;
+    height: 80vh;
+    padding:50px;
+    background:#00ceaa;
+}
+
+
+
+.card{
+    /* background:red; */
+    border: 1px solid white;
+
+    color:white;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    transition:background-color 0.7s linear;
+
+    /* width: 40px; */
+}
+
+.card:hover > .hidden{
+    display: block !important;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.card-header{
+    /* color:	#ffa31a; */
+    color:	#ffa500;
+    text-shadow: 3px 2px 6px #1b1b1b;
+    font-weight:bold;
+    margin: 20px 0;
+    text-align: center;
+    font-size:1.4rem;
+}
+
+.card-content{
+    font-size:1.2rem;
+    margin: 10px  ;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: transparent;
+}
+
+.card-title{
+    font-size: 2rem;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    padding: 10px 0;
+    width: 70%;
+    text-align: center;
+}
+
+.background{
+    background: rgba(255, 0, 0, 0.857) url('../img/car.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: darken;
+
+}
