@@ -176,8 +176,10 @@
 .service-container h2{
     font-size: 2.8rem;
     position: relative;
-    top: 65px;
+    top: 65px ;
     left: 34%;
+    text-align: center;
+    width: 31%;
 
 }
 
