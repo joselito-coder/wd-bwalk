@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    background:white;
+    justify-content: space-between;    
+    padding: 20px 0;
+}
+
+
+.link-cont{
+    display: flex;
+    align-items: center;
+    margin-right: 10rem;
+}
+
+.nav-element{
+    list-style: none;
+}
+
+.nav-element a{
+    color:#3a3a3a;
+    text-decoration: none;
+    color: #3a3a3a;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 3px;
+
+}
+
+.nav-element a:hover{
+    color:#9DCA00
+}
+
+
+.nav-active{
+    color:#9DCA00 !important;
+}
+
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:10rem;
+}
+
+.logo-text{
+    margin-left: 3rem;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.main-cont{ 
+    background:url('../img/vegetables.jpg') no-repeat;
+    color:white;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-img-cont{
+    height:50vh !important;
+    font-size: 5rem;
+    background-blend-mode: darken;
+    background-color: #00000082;
+}
+
+.main-header{
+    font-size: 4rem;
+    margin-bottom:3rem;
+    text-shadow: 4px 2px 3px black;
+}
+
+.btn-joline{
+    padding:15px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.btn-main{
+    color:#79a317;
+    /* background: rgba(125, 243, 7, 0.219); */
+    background:#FFFFFFD1;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.btn-main:hover{
+    color:white;
+    background: #A2CD3A;
+    transform: scale(1.1);
+    transition:all .37s ease;
+}
+
+
+.about-cont{
+    margin-top:4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-img {
+
+    height: 40rem;
+    width: 500px;
+}
+
+.about-bio{
+    
+    width: 72%;
+    font-size: 1.23rem;
+    margin: 0 30px;
+    word-spacing: 7px;
+
+}
+
+
+.btn-about{
+    background:#71b230;
+    color:white;
+    margin: 15px 30px;
+    padding: 15px 30px;
+    transition:all 0.3s linear;
+}
+
+.btn-about:hover{
+    background:#4d7921;
+
+
+}
+
+.btn-center{
+    width: 25%;
+    margin: 40px auto;
+    display: block;
+}
+
+.about-title-home{
+    width: 72%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.service-container{
+    background: #9DD5BF;
+    color: white;
+    height: 73vh;
+    margin-bottom: 99px;
+}
+
+.service-card{
+    width: 23%;
+    text-align: center;
+    background:white;
+    color:black;
+    margin: 0 20px;
+    /* border: 1px solid red; */
+    box-shadow: 0px 6px 19px #0000008a;
+
+
+}
+
+.service-container h2{
+    font-size: 2.8rem;
+    position: relative;
+    top: 65px ;
+    left: 34%;
+    text-align: center;
+    width: 31%;
+
+}
+
+.service-card-header{
+    font-size:2rem;
+    font-weight: bolder;
+    margin: 50px 0; 
+}
+
+.service-card-img img{
+    height: 266px;
+    
+    width:100%;
+}
+
+.btn-service{
+    background: #71b230;
+    color:white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.service-card-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+
+}
+
+.fake-container{
+    height: 40vh;
+}
+
+.form-container{
+    height:100vh;
+    /* background: red;; */
+    display: flex;
+}
+
+.form-content{
+    width: 50%;
+    /* background: purple; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-form   {
+    text-align: center;
+    width: 61%;
+}
+
+.inside-form input,textarea{
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 11px;
+    font-size:1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(126, 126, 126, 0.452);
+    resize: none;
+}
+
+.form-img{
+    width: 50%;
+    height: 100%;
+    /* text-align: center; */
+}
+
+.form-img img{
+    width: 60%;
+
+}
+
+.text-green{
+    color:#9ccc3a
+
+}
+
+.small{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-heading{
+    font-size:3.5rem;
+}
+
+.footer{
+    height:60vh;
+    position:relative;
+    color:white;
+    text-shadow: 4px 2px 3px black;
+    font-size:1.123rem;
+
+}
+
+.footer::before{
+    content: '';
+    background: rgba(0, 0, 0, 0.678) url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/backyard-vegetable-garden-1525293686.jpg?resize=980:*') no-repeat;
+    position: absolute;
+    background-blend-mode:darken;
+    top:0px;
+    height:100%;
+    width:100%;
+    left:0px;
+    background-size: cover;
+    z-index: -1;
+    opacity: .9;
+}
+
+.curl-container{
+    background: white;
+    height: 141px;
+    border-radius: 26%;
+    transform: rotate(180deg);
+    position: relative;
+    top: 27px;
+    z-index: 100;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    top:2.3rem;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.contact-label{
+    /* color: black; */
+    color:#b3b3b3;
+    font-size: 1.2rem;
+    margin-top:1.5rem;
+    text-shadow: none;
+}
+
+.footer-social-links{
+    text-align: center;
+    margin-top:2rem
+}
+
+.social-icons{
+    margin-top:20px;
+}
+.social-icons i {
+    font-size: 2rem;
+    margin: 0 14px;
+
+}
+
+.footer-text{
+    position:relative;
+    text-align: center;
+    top:8rem;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+.about-container{
+    margin-top: 15rem;
+    /* border:2px solid red; */
+    width: 100%;
+    display: flex;
+}
+
+.about-content{
+    width: 50%;
+}
+
+.about-image{
+    width: 50%;    
+}
+
+.about-title{
+    background: white;
+    padding: 10px 4px;
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    position: relative;
+    right: 23%;
+    width: 50%;
+}
+
+
+
+.about-image img{
+    width: 255px;
+    
+}
+
+.about-image img:first-child{
+    position:relative;
+    bottom: 38%;
+}
+
+.about-image img:last-child{
+    position: relative;
+    left: 5%;
+    bottom: 11%;
+    width: 287px;
+}
+
+.about-content{
+    position:relative;
+    width: 50%;
+    top:4%;
+
+}
+
+.about-content-data{
+    font-family: sans-serif;
+    word-spacing: 1px;
+    line-height: 1.2rem;
+}
+
+.service-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin:4rem 0;
+}
+
+
+
+
+
+.about-service-container{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-reverse{
+    flex-direction:row-reverse !important;
+}
+
+.flex-align-center{
+    align-items: center;
+
+}
+
+
+.about-service-img{
+    width: 40%;
+}
+
+.about-service-img img{
+    width: 100%;
+}
+
+.about-service-content{
+    width: 50%;
+}
+
+.about-service-content-title{
+    font-size:1.5rem;
+    font-weight: bold;
+    margin-bottom:1.2rem;
+}
+
+.about-service-content-para{
+    color:rgb(72, 72, 72);
+    margin: 15px  0; 
+    font-size:1.1rem;
+}
+
+.about-icon{
+    color:#71b230;
+}
+
+.about-checklist{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    /* gap: 20px; */
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4vh 0;
+    
+}
+
+.contact-form input,textarea{
+    display: block;
+    width: 91%;
+    margin: 10px auto;
+    padding: 11px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(126, 126, 126, 0.452);
+    resize: none;
+}
+
+body.babu{
+    background:#efefee;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.contact-form{
+    background: white;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+.btn-contact{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.my-3{
+    margin: 20px 0;
+}
