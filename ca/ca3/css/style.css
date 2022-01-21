@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.carousel-inner img{
+    height:92vh;
+}
+
+.fix-obscure{
+    text-shadow: 0 0 5px white !important;
+    font-weight: 500 !important;
+    /* font-size: 15px !important; */
+}
+
+.distro-container{
+    margin-top:3rem !important;
+}
+
+body{
+    background: #706f6f !important;
+}
+
+/* height: 225
+px
+;
+    width: 100%;
+    display: block; */
+
+
+.dropdown-item{
+        color: white;
+        border: 1px solid grey;
+        margin: 0;
+}
+
+.card > img{
+    height: 230px !important;
+    border-bottom: 1px solid black  ;
+}
+
+.card-body{
+    background: #c5c5c5 !important;
+
+}
