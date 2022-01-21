@@ -85,7 +85,7 @@
 
 .btn-joline{
     padding:15px;
-    border-radius: 5px;
+    border-radius: 5px !important;
     border:none;
     cursor: pointer;
 }
@@ -134,6 +134,8 @@
     margin: 15px 30px;
     padding: 15px 30px;
     transition:all 0.3s linear;
+    border: none !important;
+    
 }
 
 .btn-about:hover{
@@ -500,6 +502,7 @@ body.babu{
     display: block;
     width: 50%;
     margin: 20px auto;
+    border:none !important; 
 }
 
 .my-3{
