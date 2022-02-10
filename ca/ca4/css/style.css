@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oxygen&family=Rampart+One&family=Roboto+Slab&family=Ubuntu&display=swap');
+:root {
+    --nav-font: 'Roboto Slab', serif;
+    --main-font: 'Ubuntu', sans-serif;
+    --stylish-font: 'Rampart One', cursive;
+    --intro-font: 'Oxygen', sans-serif;
+    --title-font: 'Josefin Sans', sans-serif;
+    --code-color: #1b1b1bd6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    transition: all .31s linear;
+}
+
+body {
+    background: #254d71;
+}
+
+/* Styling the navbar */
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(349deg, #5d5a5a, #8e8e8e);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    font-family: var(--nav-font);
+}
+
+#navbar ul {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 20px 0;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 9px 20px;
+    border-radius: 20px;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(231, 231, 231);
+    color: black;
+}
+
+/* Styling the welcome section */
+
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#380036 ,#0D324D);
+    color: white;
+}
+
+#welcome-section h1 {
+    margin-bottom: 30px;
+    font-family: var(--intro-font);
+}
+
+#welcome-section p {
+    text-align: center;
+    font-family: var(--intro-font);
+    font-size: 1.2rem;
+}
+
+/* Styling the Projects section */
+
+#projects {
+    margin: 10px 0;
+}
+
+.projects {
+    margin: 30px auto;
+    max-width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(355px, 1fr));
+    gap: 30px;
+    font-family: sans-serif;
+}
+
+.project {
+    box-shadow: 0px -3px 7px 6px rgb(255 255 255 / 40%);
+}
+
+.project-image img {
+    width: 100%;
+    display: block;
+}
+
+.project-tile {
+    padding: 20px;
+    text-align: center;
+    background-color: #1b1b1bd6;
+    position: relative;
+    margin: 0;
+}
+
+.project-tile:hover {
+    --code-color: red;
+}
+
+.project-link {
+    color: white;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: 1.2rem;
+}
+
+/* Contact container */
+
+.contact-container {
+    width: 80%;
+    background: linear-gradient( 345deg, #b5b5b5c2, #d8d8d8d9);
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-radius: 36px;
+    margin-top: 4rem;
+}
+
+.profile-link {
+    color: black;
+    font-size: 2rem;
+    margin: 1rem 2rem;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 30px;
+    transition: all 0.2s linear;
+}
+
+.profile-link:hover {
+    transform: translateY(10px);
+}
+
+#contact-section {
+    text-align: center;
+    background: #303841c7;
+    padding: 20px;
+}
+
+.heading {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+    font-family: var(--title-font);
+}
+
+#projects h2 {
+    margin: 20px 0px;
+    border-top: 2px solid white;
+    padding-top: 10px;
+}
+
+#contact-section h2 {
+    border-bottom: 2px solid white;
+}
+
+.stylist {
+    font-family: var(--stylish-font);
+    font-size: 2.3rem;
+    color: white;
+    margin-left: 3px;
+    display: inline-flex;
+    /* background: rgb(68, 68, 68); */
+    height: 35px;
+    align-items: center;
+}
+
+.code {
+    color: var(--code-color);
+    position: absolute;
+    font-size: 1.6rem;
+}
+
+.code-left {
+    left: 20%;
+}
+
+.code-right {
+    right: 20%;
+}
+
+@media (max-width:800px) {
+    #navbar ul {
+        width: 100%;
+    }
+}
+
+@media (max-width:420px) {
+    .contact-container {
+        width: 100%;
+    }
+}
+
+@media (max-width:370px) {
+    .projects {
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+    .profile-link {
+        margin: 0rem;
+    }
+    .project {
+        margin: 5px 0;
+    }
+    .code{
+        display: none;
+    }
+}
+
+i {
+    margin-right: 7px;
+}
